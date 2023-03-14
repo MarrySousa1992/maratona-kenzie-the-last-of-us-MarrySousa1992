@@ -1,0 +1,278 @@
+.home {
+    height: 900px;
+    background-image: url("../img/The-Last-Of-Us-HBO-Wallpaper-13\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header>figure>img {
+    height: 144px;
+    width: 254px;
+}
+
+nav {
+    width: 70%;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+ul>li>a {
+    color: var(--text-color-1);
+    font-family: Iceland;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+}
+
+ul>li>a:hover {
+    font-weight: 600;
+    color: var(--color-grey-2);
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+
+}
+
+
+h1 {
+    font-family: Iceland;
+    font-size: 92px;
+    font-weight: 400;
+    line-height: 89px;
+    color: var(--color-grey-2)
+}
+
+main>p {
+    width: 500px;
+    font-family: Actor;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--text-color-1);
+
+}
+
+.flexColomn {
+    display: flex;
+}
+
+button {
+    height: 46px;
+    width: 180px;
+    color: var(--color-grey-2);
+    cursor: pointer;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button>span {
+    border: 1px solid white;
+    padding: 5px;
+    width: 170px;
+    font-family: Iceland;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+
+}
+
+.active {
+    background-color: var(--color-secondary);
+
+}
+
+.active:hover {
+    border: 2px solid var(--color-grey-1);
+}
+
+.inactive {
+    background-color: var(--color-grey-1);
+}
+
+.inactive:hover {
+    border: 2px solid var(--color-grey-2);
+}
+
+main>section {
+    margin-top: 150px;
+
+}
+
+h3 {
+    font-family: Iceland;
+    font-size: 26px;
+    font-weight: 400;
+    color: var(--color-grey-2);
+    line-height: 25px;
+
+}
+
+section>ul {
+    width: 800px;
+    margin-top: 40px;
+    gap: 10px;
+
+}
+
+.positionRelative {
+    height: 139px;
+    width: 261px;
+    position: relative;
+
+
+}
+
+.positionAbsolute {
+    position: absolute;
+    top: 55px;
+    left: 90px;
+    font-family: Iceland;
+    font-size: 21px;
+    color: #b8b8b8;
+
+}
+
+.episodes {
+    background-image: url("../img/episodes.svg");
+
+}
+
+.posts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divTexts {
+    width: 50%;
+    color: var(--text-color-1);
+    margin-top: 250px;
+}
+
+.divTexts>p {
+    width: 80%;
+
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.ulEpisodes {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-y: auto;
+    height: 750px;
+}
+
+.ulEpisodes::-webkit-scrollbar {
+    background: rgba(142, 0, 0, 0.38);
+    border-radius: 12px;
+    border-radius: 20px;
+    border: 3px solid black;
+
+}
+
+.liEpisodes {
+    display: flex;
+    gap: 30px;
+    background-color: black;
+    height: 194px;
+    padding: 33px;
+}
+
+.imgEpisode {
+    width: 250px;
+}
+
+
+.divLiEpisodes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--text-color-1);
+}
+
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    background: linear-gradient(180deg, var(--color-grey-3) 0%, var(--color-secondary) 289.06%);
+}
+
+.containerFooter {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.divContact {
+    color: var(--color-grey-2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.divContact>h2 {
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.divContact>h3 {
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 31px;
+    color: #FFFFFF;
+
+}
+
+.divIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
